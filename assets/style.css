@@ -321,3 +321,14 @@ footer.pie{padding:1.2rem .5rem}
   .content td,.content th{padding:.5rem .55rem}
   .pager a{padding:.6rem .85rem;font-size:.88rem}
 }
+
+
+/* Declaración de uso de IA */
+.declaracion-ia{
+  margin-top:2.2rem;padding:clamp(1.1rem,3vw,1.8rem);
+  border:1px solid color-mix(in srgb,var(--acc) 38%,var(--rule));
+  border-radius:18px;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--acc) 9%,var(--panel)),var(--panel2));
+}
+.declaracion-ia h2{margin-top:0!important}
+.declaracion-ia p{max-width:75ch}
